@@ -3,11 +3,11 @@ painel_rest () {
 clear
 mkdir /root/restaurar > /dev/null 2>&1
 cd /root/restaurar || exit
-wget https://github.com/playconect/pweb/raw/painel/install/correct.sql > /dev/null 2>&1
+wget https://github.com/playconect/Painel-2022/raw/main/install/correct.sh > /dev/null 2>&1
 cd || exit
 clear
 echo ""
-echo -e "\033[1;33mADICIONAR BANCO DE DADOS CONECTA AO PAINELWEB GESTOR-SSH!\033[0m" 
+echo -e "\033[1;33mADICIONAR BANCO DE DADOS CONECTA AO PAINELWEB PLAY CONECT!\033[0m" 
 echo ""
 echo -ne "\033[1;32mDE UM ENTER PRA CONTINUAR...\033[0m"; read -r
 
