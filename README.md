@@ -15,19 +15,19 @@ Armazenamento: 20GB
 * ⚡ Painel WEB - PAINEL WEB ⚡ x86/x64bits / ARM
 
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Painel-2022/install/main/ubuinst3.sh)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/playconect/Painel-2022/main/install/ubuinst3.sh)
 ```
 
 * 🐱‍💻 Instalação
 * ⚡ Painel WEB - PAINEL WEB ⚡ DB CONECTA 4g
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Painel-2022/install/main/bancoconecta.sh)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/playconect/Painel-2022/main/install/bancoconecta.sh)
 ```
 
 * ♻️ Sincronização
 * ⚡ Painel WEB - PAINEL WEB ⚡x86/x64bits
 ```
-wget http://raw.githubusercontent.com/Painel-2022/install/main/SincAI.sh && chmod +x SincAI.sh && dos2unix SincAI.sh && ./SincAI.sh
+wget raw.githubusercontent.com/Painel-2022/install/main/SincAI.sh && chmod +x SincAI.sh && dos2unix SincAI.sh && ./SincAI.sh
 ```
 
 * ♻️ Sincronizando
