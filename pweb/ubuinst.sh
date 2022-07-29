@@ -151,9 +151,6 @@ echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━�
   msg -bar
   print_center -ama "O sistema será atualizado.\n Pode demorar um pouco e pedir algumas confirmações.\n"
   msg -bar3
-  msg -ne "\n Você deseja continuar? [S/n]: "
-  read opcion
-  [[ "$opcion" != @(s|S) ]] && stop_install
   clear && clear
   os_system
   msg -bar
