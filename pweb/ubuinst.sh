@@ -326,7 +326,7 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL WEB    \E[0m"
 echo ""
-echo -e "PLAY CONECT" | figlet
+echo -e $ cfonts "PLAY CONECT" --gradient red,"#f80"
 echo -e "                              \033[1;31mBy @play_conect\033[1;36m"
 echo ""
 chave=$(curl -sSL "https://github.com/playconect/Painel-2022/raw/main/pweb/chave") &>/dev/null
