@@ -151,12 +151,13 @@ echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━�
   msg -bar
   apt install software-properties-common
   apt update -y
+  apt install figlet -y
   add-apt-repository ppa:ondrej/php -y
   apt update -y
   apt upgrade -y
   clear
   msg -bar
-  echo -e "\e[1;97m           \e[5m\033[1;100m   ATUALIZAÇÃO DO SISTEMA CONCLUÍDA COM SUCESSO!\033[1;37m"
+  echo -e "\e[1;97m\e[5m\033[1;100m   ATUALIZAÇÃO DO SISTEMA CONCLUÍDA COM SUCESSO!   \033[1;37m"
   msg -bar
   sleep 3
   clear
