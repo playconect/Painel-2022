@@ -15,19 +15,19 @@ Armazenamento: 20GB
 * ⚡ Painel WEB - PAINEL WEB ⚡ x86/x64bits / ARM
 
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/playconect/install/bad/ubuinst3.sh)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Painel-2022/install/main/ubuinst3.sh)
 ```
 
 * 🐱‍💻 Instalação
 * ⚡ Painel WEB - PAINEL WEB ⚡ DB CONECTA 4g
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Painel-2022/pweb/main/bancoconecta.sh)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Painel-2022/install/main/bancoconecta.sh)
 ```
 
 * ♻️ Sincronização
 * ⚡ Painel WEB - PAINEL WEB ⚡x86/x64bits
 ```
-wget http://raw.githubusercontent.com/playconect/install/bad/SincAI.sh && chmod +x SincAI.sh && dos2unix SincAI.sh && ./SincAI.sh
+wget http://raw.githubusercontent.com/Painel-2022/install/main/SincAI.sh && chmod +x SincAI.sh && dos2unix SincAI.sh && ./SincAI.sh
 ```
 
 * ♻️ Sincronizando
@@ -46,7 +46,7 @@ PAINEL WEB - PLAY CONECT ⚡
 * 4 - Copie o código abaixo e cole.na VPS
 
 ```
-wget http://raw.githubusercontent.com/SrCarrara/install/bad/SincAI.sh && chmod +x SincAI.sh && dos2unix SincAI.sh && ./SincAI.sh
+wget raw.githubusercontent.com/Painel-2022/install/main/SincAI.sh && chmod +x SincAI.sh && dos2unix SincAI.sh && ./SincAI.sh
 ```
 
 
