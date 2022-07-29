@@ -149,13 +149,6 @@ echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━�
   msg -bar
   echo -e "\e[1;97m           \e[5m\033[1;100m   ATUALIZAÇÃO DO SISTEMA   \033[1;37m"
   msg -bar
-  print_center -ama "O sistema será atualizado.\n Pode demorar um pouco e pedir algumas confirmações.\n"
-  msg -bar3
-  clear && clear
-  os_system
-  msg -bar
-  echo -e "\e[1;97m           \e[5m\033[1;100m   ATUALIZAÇÃO DO SISTEMA   \033[1;37m"
-  msg -bar
   apt install software-properties-common
   apt update -y
   add-apt-repository ppa:ondrej/php -y
